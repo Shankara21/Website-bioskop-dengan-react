@@ -1,0 +1,49 @@
+.myBG {
+  height: 100vh;
+  background: url(../img/bg/cinema.jpg) no-repeat;
+  background-size: cover;
+}
+
+/* ! INTRO SECTION */
+.intro {
+  height: 450px;
+  display: flex;
+  color: #fff;
+  text-align: center;
+}
+.title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1;
+  text-shadow: 2px 2px #cf1a06;
+  letter-spacing: 3px;
+}
+/* ! END OF INTRO SECTION */
+
+/* !TRENDING SECTION */
+.trending {
+  background: url(../img/bg/trending.jpg) no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+.trendingImage {
+}
+/* ! END OF TRENDING SECTION */
+
+/* ! SUPERHERO SECTION */
+.superhero {
+  background: url(../img/bg/spidey.jpg) no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+/* todo UKURAN MOBILE */
+@media (max-width: 992px) {
+  .title {
+    font-size: 2.5rem;
+  }
+  .myBG {
+    background-size: auto;
+  }
+}
