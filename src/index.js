@@ -5,12 +5,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import NavigationBar from './components/NavigationBar';
-import Intro from './components/Intro';
-import Trending from './components/Trending';
-import Superhero from './components/Superhero';
-import Footer from './components/Footer';
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

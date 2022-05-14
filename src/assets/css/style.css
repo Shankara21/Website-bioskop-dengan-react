@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .myBG {
   height: 100vh;
   background: url(../img/bg/cinema.jpg) no-repeat;
